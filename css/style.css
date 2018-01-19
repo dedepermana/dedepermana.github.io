@@ -1,25 +1,30 @@
 
 html {
-	position: relative
+  position: relative
 }
 
 body {
-	padding-top: 100px;
-	font-family: 'PT Serif', serif;
+  padding-top: 100px;
+  font-family: 'PT Serif', serif;
 
 }
 
 nav  {
-	position: fixed;
-	color: red;
+  position: fixed;
+  color: red;
 
 
 }
 
+.navbar {
+  
+  
+}
+
 .about {
-	color: white;
-	padding-top: 100px;
-	
+  color: white;
+  padding-top: 100px;
+  
 }
 
 .parallax { 
@@ -28,7 +33,7 @@ nav  {
 
     /* Set a specific height */
     height: 1500px; 
-	padding-top: 1000px;
+  padding-top: 1000px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -39,10 +44,10 @@ nav  {
 }
 
 .jumbotron {
-	background-image: url(../img/jumbotron2.jpg);
-	background-size: cover;
-	;
-	}	
+  background-image: url(../img/jumbotron2.jpg);
+  background-size: cover;
+  ;
+  } 
 
 .jumbotron img{
     width: 200px ;
@@ -50,8 +55,8 @@ nav  {
 
 }
 
-.jumbotron h1	{
-	color: yellow;
+.jumbotron h1 {
+  color: yellow;
 }
 
 
@@ -60,18 +65,18 @@ hr {
     border-top:3px solid lightblue ;
     
 }
-.carousel-inner	{
-	margin-bottom: 100px;
+.carousel-inner {
+  margin-bottom: 100px;
 }
 
 section {
-	min-height: 400px;
+  min-height: 400px;
 
 }
 
 h2 {
-	text-align: center;
-	font-size: 35px;
+  text-align: center;
+  font-size: 35px;
 
 }
 
@@ -81,19 +86,19 @@ font-size: 20px
 }
 
 p {
-	color: white
-	font-size: 16px;
+  color: white
+  font-size: 20px;
 
 }
 
 .Product-Gallery {
-	min-height:800px;
-	padding-top: 100px;
+  min-height:800px;
+  padding-top: 100px;
 }
 
 .contact {
-	min-height:800px;
-	padding-top: 100px;
+  min-height:800px;
+  padding-top: 100px;
 }
 
 // Options for the first group
@@ -110,47 +115,47 @@ $('[data-fancybox="images"]').fancybox({
 
 }
 footer {
-	position: absolute;
-	bottom: 0;
-	height: 120px;
-	width: 100%;
-	background-color: grey;
-	padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+  height: 120px;
+  width: 100%;
+  background-color: grey;
+  padding-top: 30px;
 }
 footer p {
-	color: #111;
-	font-size: 0.9em;
+  color: #111;
+  font-size: 0.9em;
 
 }
 
 iframe {
-	text-align: center;
+  text-align: center;
 }
 
 footer p i {
-	color: #111;
+  color: #111;
 }
 
-#inputnumber	{
-
-}
-
-.angka	{
+#inputnumber  {
 
 }
 
-.operator	{
+.angka  {
+
+}
+
+.operator {
 
 
 }
 
-#bagi	{}
+#bagi {}
 
-#kali	{}
+#kali {}
 
-#kurang	{}
+#kurang {}
 
-#tambah	{}
+#tambah {}
 #shiva
 {
   width: 100px;
