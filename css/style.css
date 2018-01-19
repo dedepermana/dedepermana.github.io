@@ -1,0 +1,201 @@
+
+html {
+	position: relative
+}
+
+body {
+	padding-top: 100px;
+	font-family: 'PT Serif', serif;
+
+}
+
+nav  {
+	position: fixed;
+	color: red;
+
+
+}
+
+.about {
+	color: white;
+	padding-top: 100px;
+	
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../img/parallax2.jpg");
+
+    /* Set a specific height */
+    height: 1500px; 
+	padding-top: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+
+}
+
+.jumbotron {
+	background-image: url(../img/jumbotron2.jpg);
+	background-size: cover;
+	;
+	}	
+
+.jumbotron img{
+    width: 200px ;
+    border: 5px solid yellow;
+
+}
+
+.jumbotron h1	{
+	color: yellow;
+}
+
+
+hr {
+    Width:250px ;
+    border-top:3px solid lightblue ;
+    
+}
+.carousel-inner	{
+	margin-bottom: 100px;
+}
+
+section {
+	min-height: 400px;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 35px;
+
+}
+
+h5 {
+font-size: 20px
+
+}
+
+p {
+	color: white
+	font-size: 16px;
+
+}
+
+.Product-Gallery {
+	min-height:800px;
+	padding-top: 100px;
+}
+
+.contact {
+	min-height:800px;
+	padding-top: 100px;
+}
+
+// Options for the first group
+$('[data-fancybox="images"]').fancybox({
+  thumbs : {
+    autoStart : true
+  },
+  buttons : [
+    'zoom',
+    'close'
+  ]
+});
+
+
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 120px;
+	width: 100%;
+	background-color: grey;
+	padding-top: 30px;
+}
+footer p {
+	color: #111;
+	font-size: 0.9em;
+
+}
+
+iframe {
+	text-align: center;
+}
+
+footer p i {
+	color: #111;
+}
+
+#inputnumber	{
+
+}
+
+.angka	{
+
+}
+
+.operator	{
+
+
+}
+
+#bagi	{}
+
+#kali	{}
+
+#kurang	{}
+
+#tambah	{}
+#shiva
+{
+  width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+  float:left;
+  margin:20px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+  font-size : 20px;
+  font-color: black;
+}
+
+

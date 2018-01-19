@@ -1,0 +1,62 @@
+ <script>
+      var a = 0;
+      var b = 0;
+      var hasil = 0;
+      var angka = '';
+      var state = 'a';
+      var operator = '';
+
+      $('.operator').click(function(){
+        if(state == 'a')
+        {
+          a = parseInt(angka);
+          angka = '';
+          state = 'b';
+          operator = $(this).attr('id');
+          $('.operator').prop('disabled', true);
+          $('#samadengan').prop('disabled', false) 
+        }
+        else
+        {
+          b = parseInt(angka);
+          angka = '';
+          switch(operator){
+            case 'bagi';
+              hasil = a / b;
+              break;
+             case 'kali';
+              hasil = a * b;
+              break;
+             case 'kurang';
+              hasil = a - b;
+              break;
+             case 'tambah';
+              hasil = a + b;
+              break;
+          }
+          $('#inputnumber').val(hasil);
+        }
+      })
+
+      $('.angka').click(function(){
+        angka = $(this).html();
+        if(parseInt(angka) > 0)
+          $('#inputnumber').val(angka);
+        else
+          angka = '';
+
+       } )
+     $('.bersihkan').click(function(){
+      a = 0;
+      b = 0;
+      hasil = 0;
+      angka = '';
+      state = 'a';
+      operator = '';
+      $('.operator').prop('disabled', false);
+      $('#inputnumber').val('0');
+
+     }
+      )
+
+    </script>
