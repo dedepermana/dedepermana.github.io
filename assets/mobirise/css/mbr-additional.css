@@ -39,7 +39,7 @@ body {
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -1700,12 +1700,12 @@ body {
 }
 .cid-qHcjuLedM3 .navbar {
   padding: .5rem 0;
-  background: #232323;
+  background: grey;
   transition: none;
   min-height: 77px;
 }
 .cid-qHcjuLedM3 .navbar-dropdown.bg-color.transparent.opened {
-  background: #232323;
+  background: white;
 }
 .cid-qHcjuLedM3 a {
   font-style: normal;
